@@ -10,5 +10,7 @@ urlpatterns = [
     path('frontend/',views.frontend,name='frontend'),
     path('productdesign/',views.productdesign,name='productdesign'),
     path('backend/',views.backend, name='backend'),
-    path('schprog/', views.schprog,name='schprog')
+    path('schprog/', views.schprog, name='schprog'),
+    path('aftersch/', views.aftersch, name='aftersch'),
+    path('workshop/', views.workshop, name='workshop')
 ]

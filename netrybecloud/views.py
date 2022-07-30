@@ -24,7 +24,7 @@ def productdesign(request):
 
 
 def contact(request):
-    return render(request,"nnetrybe/contact.html", {})
+    return render(request,"netrybe/contact.html", {})
 
 def backend(request):
     return render(request,"netrybe/backend.html", {})
@@ -32,3 +32,9 @@ def backend(request):
 
 def schprog(request):
     return render(request, "netrybe/schprog.html", {})
+    
+def aftersch(request):
+    return render(request, "netrybe/afterschool.html", {})
+
+def workshop(request):
+    return render(request, "netrybe/workshop.html", {})
