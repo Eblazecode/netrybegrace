@@ -4,7 +4,7 @@ urlpatterns = [
     path('',views.index, name='index'),
     path('about/',views.about, name='about'),
     path('training/',views.training, name='courses'),
-    path('coursedetails/',views.coursesdet,name='coursedetails'),
+    path('coursedetails/',views.coursesdetails,name='coursedets'),
     path('contact/', views.contact, name='contact'),
     path('datasci/',views.datasci,name='datasci'),
     path('frontend/',views.frontend,name='frontend'),
@@ -12,5 +12,6 @@ urlpatterns = [
     path('backend/',views.backend, name='backend'),
     path('schprog/', views.schprog, name='schprog'),
     path('aftersch/', views.aftersch, name='aftersch'),
-    path('workshop/', views.workshop, name='workshop')
+    path('workshop/', views.workshop, name='workshop'),
+    path('nimblyprogram/', views.nimbly, name='nimblyprog'),
 ]

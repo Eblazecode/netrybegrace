@@ -10,7 +10,7 @@ def about(request):
 def training(request):
         return render(request, "netrybe/courses.html",{})
 
-def coursesdet(request):
+def coursesdetails(request):
     return render(request, "netrybe/coursesdetails.html",{})
 
 def datasci(request):
@@ -28,6 +28,10 @@ def contact(request):
 
 def backend(request):
     return render(request,"netrybe/backend.html", {})
+
+
+def nimbly(request):
+    return render(request,"netrybe/nimblyprogram.html", {})
 
 
 def schprog(request):

@@ -67,8 +67,7 @@
 {% include 'header.html' %}
 <!-- Header Top END ==== -->
         <!-- Main Slider -->
-        <div class="section-area section-sp2 bg-fix
-         ovbl-dark join-bx" style="background-image:url({% static 'assets/codingblue.jpg' %});">
+        <div class="section-area section-sp1 m-b100 ovpr-light bg-fix online-cours" style="background-image:url({% static 'assets/codingblue.jpg' %});">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center heading-bx text-white">
@@ -239,7 +238,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="courses.php" class="btn button-md offset-lg-5 pt-3">see more</a>
+                        <a href="{% url 'coursedets' %}" class="btn button-md offset-lg-5 pt-3">see more</a>
                     </div>
                 </div>
             </div>
