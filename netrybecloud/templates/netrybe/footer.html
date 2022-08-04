@@ -48,10 +48,10 @@
 								<div class="widget footer_widget">
 									<h5 class="footer-title">navigation</h5>
 									<ul>
-										<li><a href="index.html">Home</a></li>
-										<li><a href="about-1.html">About</a></li>
-										<li><a href="faq-1.html">services</a></li>
-										<li><a href="contact-1.html">Contact</a></li>
+										<li><a href="{% url 'index' %}">Home</a></li>
+										<li><a href="{% url 'about' %}">About</a></li>
+										<li><a href="#">services</a></li>
+										<li><a href="#">Contact</a></li>
 									</ul>
 								</div>
 							</div>
@@ -59,28 +59,28 @@
 								<div class="widget footer_widget">
 									<h5 class="footer-title">schools</h5>
 									<ul>
-										<li><a href="">Nimbly Programs</a></li>
-										<li><a href="blog-classic-grid.html">After sch</a></li>
-										<li><a href="blog-classic-grid.html">Sch mgt systems</a></li>
-										<li><a href="portfolio.html">whiz codes competiton</a></li>
+										<li><a href="{% url 'nimblyprog' %}">Nimbly Programs</a></li>
+										<li><a href="{% url 'aftersch' %}">After school</a></li>
+										<li><a href="{% url 'courses' %}">Sch mgt systems</a></li>
+										<li><a href="{% url 'workshop' %}">Tech Teachers </a></li>
 										<li><a href="event.html">Tech teach</a></li>
 									</ul>
 								</div>
 							</div>
 							<div class="col-4 col-lg-4 col-md-4 col-sm-4">
 								<div class="widget footer_widget">
-									<h5 class="footer-title">Courses</h5>
+									<h5 class="{% url 'courses' %}">Courses</h5>
 									<ul>
-										<li><a href="courses.html">Frontend</a></li>
-										<li><a href="courses-details.html">Data science</a></li>
-										<li><a href="membership.html">Web development</a></li>
-										<li><a href="profile.html">Product design</a></li>
+										<li><a href="{% url 'frontend' %}">Frontend</a></li>
+										<li><a href="{% url 'datasci' %}">Data science</a></li>
+										<li><a href="{% url 'backend' %}">backend development</a></li>
+										<li><a href="#">Product design</a></li>
 									</ul>
 								</div>
 							</div>
 						</div>
                     </div>
-					<div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
+					<!--<div class="col-12 col-lg-3 col-md-5 col-sm-12 footer-col-4">
                         <div class="widget widget_gallery gallery-grid-4">
                             <h5 class="footer-title">Our Gallery</h5>
                             <ul class="magnific-image">
@@ -94,7 +94,7 @@
 								<li><a href="assets/images/gallery/pic8.jpg" class="magnific-anchor"><img src="assets/images/gallery/pic8.jpg" alt=""></a></li>
 							</ul>
                         </div>
-                    </div>
+                    </div>-->
                 </div>
             </div>
         </div>
