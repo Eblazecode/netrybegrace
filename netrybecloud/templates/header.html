@@ -31,10 +31,11 @@
             <div class="container clearfix">
                 <!-- Header Logo ==== -->
                 <div class="menu-logo">
-                    <a href="index.html"><img src="{% static 'assets/Netrybelogo.svg' %}" width="200px" alt=""></a>
+                    <a href="{% url 'index' %}"><img src="{% static 'assets/3x/Artboard 2 copynetrybelogo.png' %}"  alt=""></a>
                 </div>
                 <!-- Mobile Nav Button ==== -->
-                <button class="navbar-toggler collapsed menuicon justify-content-end" type="button" data-toggle="collapse" data-target="#menuDropdown" aria-controls="menuDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler collapsed menuicon justify-content-end" type="button" data-toggle="collapse" 
+                data-target="#menuDropdown" aria-controls="menuDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span></span>
                     <span></span>
                     <span></span>
@@ -49,7 +50,7 @@
                         
                         </ul>
                     </div>
-                </div>-
+                </div>
                 
                 <!--<div class="nav-search-bar">
                     <form action="#">
@@ -60,7 +61,7 @@
                 </div> Navigation Menu -->
                 <div class="menu-links navbar-collapse collapse justify-content-start" id="menuDropdown">
                     <div class="menu-logo">
-                        <a href="{% url 'index' %}"><img src="{% static 'assets/Netrybelogo.png' %}" width="300px" alt=""></a>
+                        <a href="{% url 'index' %}"><img src="{% static 'assets/3x/Artboard 2 copynetrybelogo.png' %}"  alt=""></a>
                     </div>
                     <ul class="nav navbar-nav">	
                         <li class="active"><a href="{% url 'index' %}">Home </i></a>
@@ -113,8 +114,8 @@
                                 <li><a href="{% url 'nimblyprog' %}">Nimbly coding</a></li>
                                 <li><a href="{% url 'aftersch' %}">After school program</a></li>
                                 <li><a href="{% url 'workshop' %}">workshop for school</li></a></li>
-                                <li><a href="blog-standard-sidebar.html">Holiday coding and tech club</a></li>
-                                <li><a href="blog-details.html">school management system</a></li>
+                                <li><a href="#">Holiday coding and tech club</a></li>
+                                <li><a href="#">school management system</a></li>
                             </ul>
                         </li>
 
