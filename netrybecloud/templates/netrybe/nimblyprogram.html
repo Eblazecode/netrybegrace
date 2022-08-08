@@ -5,32 +5,47 @@
 
 <head>
 
-	<!-- META ============================================= -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
-	<meta name="robots" content="" />
+		<!-- META ============================================= -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="keywords" content="" />
+		<meta name="author" content="" />
+		<meta name="robots" content="" />
+		
+		<!-- DESCRIPTION -->
+		<meta name="description" content="NETRYBE technology is company based in Abuja, comprising 
+		of tech professionals working together to profer solutions
+		 to business challenges and  our most pressing
+		problems as a multi-diverse society.Our vision is to build a robust and dynamic IT company 
+		 helping to proffer business solution 
+		to daily challenges and to make a  TRYBE of vibrant individuals making a mark.
 	
-	<!-- DESCRIPTION -->
-	<meta name="description" content="EduChamp : Education HTML Template" />
+		" />
+		
+		<!-- OG -->
+		<meta property="og:title" content="NETRYBE Technology " />
+		<meta property="og:description" content="NETRYBE technology is company based in Abuja, comprising 
+		of tech professionals working together to profer solutions
+		 to business challenges and  our most pressing
+		problems as a multi-diverse society.Our vision is to build a robust and dynamic IT company 
+		 helping to proffer business solution 
+		to daily challenges and to make a  TRYBE of vibrant individuals making a mark" />
 	
-	<!-- OG -->
-	<meta property="og:title" content="EduChamp : Education HTML Template" />
-	<meta property="og:description" content="EduChamp : Education HTML Template" />
-	<meta property="og:image" content="" />
-	<meta name="format-detection" content="telephone=no">
-	
-	<!-- FAVICONS ICON ============================================= -->
-	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
-	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
-	
-	<!-- PAGE TITLE HERE ============================================= -->
-	<title>NETRYBE </title>
-	
-	<!-- MOBILE SPECIFIC ============================================= -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+		<meta property="og:image" content="Our vision is to build a robust and dynamic IT company 
+		 helping to proffer business solution 
+		to daily challenges and to make a  TRYBE of vibrant individuals making a mark" />
+		<meta name="format-detection" content="+23408051125659">
+		
+		<!-- FAVICONS ICON ============================================= -->
+		<link rel="icon" href="{% static 'assets/images/netrybefav.png' %} " type="image/x-icon" />
+		<link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/images/netrybefav.png' %}" />
+		
+		<!-- PAGE TITLE HERE ======= ======= ====== ====== ======= ===== ====== -->
+		<title> nimbly  </title>
+		
+		<!-- MOBILE SPECIFIC ======== ======== ======== ======== ============= -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
 	<!--[if lt IE 9]>
 	<script src="assets/js/html5shiv.min.js"></script>
 	<script src="assets/js/respond.min.js"></script>
@@ -75,7 +90,7 @@
 						<div class="col-md-12 m-t20 text-center text-white">
 							<h2>Nimbly coding school program </h2>
 							<h5>Raising the future champions the code form</h5>
-							<h6>Levearge on technology and deliver amazing solution</h6>
+							
 							<!--<form class="cours-search">
 								<div class="input-group">
 									<input type="text" class="form-control" placeholder="What do you want to learn today?	">
@@ -122,15 +137,16 @@
 				<div class="container">
 					<div class="row align-items-center d-flex">
 						<div class="col-lg-5 col-md-12 heading-bx">
-							<h2 class="m-b10"> A trybe of tech kids </h2>
-							<h5 class="fw4">Raising the future leaders the tech way .</h5>
+							<h2 class="m-b10"> summer tech  kids bootcamp </h2>
+							<h5 class="fw4">Raising the future leaders the tech way this summer.</h5>
 							<p>In today’s digital world, coding is a fundamental skill alongside math and reading, but too few kids have the opportunity to learn to program because it is rarely taught in school. 
-								Our mission is to create a fun and engaging activities where children not only learn to program but also have opportunities to be creative using code.</p>
-							<a href="#" class="btn">Read More</a>
+								Our mission is to create a fun and engaging activities where children not only learn to program but 
+								also have opportunities to be creative using code, design and robotics this summer.</p>
+							<a href="#" class="btn">Register</a>
 						</div>
-						<div class="col-lg-7 col-md-12 heading-bx p-lr">
+						<div class="col-lg-7 col-md-12 heading-bx p-lr p-3">
 							<div class="video-bx">
-								<img src="{% static 'assets/codinggirl.jpg' %}" alt=""/>
+								<img src="{% static 'assets/codingboy.jpg' %}" alt=""/>
 							
 							</div>
 						</div>
@@ -157,9 +173,8 @@
 						<div class="container">
 							<div class="row">
 								<div class="col-md-12 heading-bx left">
-									<h2 class="title-head">what we teach <span>Courses</span></h2>
-									<p>It is a long established fact that a reader will be
-										distracted by the readable content of a page</p>
+									<h2 class="title-head">what we teach <span></span></h2>
+									<p>future proof your kids</p>
 								</div>
 							</div>
 							<div class="row">
@@ -177,6 +192,7 @@
 		
 										</div>
 									</div>
+
 									<div class="item">
 										<div class="cours-bx">
 											<div class="action-box" style="height: 200px">
@@ -190,11 +206,24 @@
 										</div>
 									</div>
 		
+									<div class="item">
+										<div class="cours-bx">
+											<div class="action-box" style="height: 200px">
+												<img src="{% static 'assets/images/pygame.png' %}" alt="">
+											</div>
+											<div class="info-bx text-center">
+												<h5><a href="{% url 'frontend' %}">PyGame development </a></h5>
+												<span>Programming</span>
+											</div>
+		
+										</div>
+									</div>
+		
 		
 									<div class="item">
 										<div class="cours-bx">
 											<div class="action-box" style="height: 200px">
-												<img src="{% static 'assets/images/web%20dev1.jpg' %}" alt="">
+												<img src="{% static 'assets/images/wendesign.png' %}" alt="">
 												
 											</div>
 											<div class="info-bx text-center">
@@ -217,20 +246,9 @@
 		
 										</div>
 									</div>
-									<div class="item">
-										<div class="cours-bx">
-											<div class="action-box" style="height: 200px">
-												<img src="{% static 'assets/images/fullstack.png' %}" alt="">
-											</div>
-											<div class="info-bx text-center">
-												<h5><a href="#">Full-stack web development</a></h5>
-												<span>Programming</span>
-											</div>
-		
-										</div>
-									</div>
+
 								</div>
-								<a href="courses.php" 
+								<a href="https://forms.gle/C736mJPg5Z2P6dm29" 
 								class="btn button-md offset-lg-5 pt-3">Regsiter</a>
 							</div>
 						</div>
@@ -262,11 +280,11 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="join-content-bx text-white">
-								<h2>Do you need any of our services <br> </h2>
+								<h2>future proof your kids <br> </h2>
 								
-								<p>we had love to know </p>
-								<a href="#" class="btn button-md"><i class="fa fa-whatsapp" 
-									aria-hidden="true"></i> chat</a>
+								<p> know how we make your kids part of our smart tech trybe  </p>
+								<a href="https://wa.link/qkk0uc" class="btn button-md"><i class="fa fa-whatsapp" 
+									aria-hidden="true"></i> chat with us</a>
 							</div>
 						</div>
 					</div>
