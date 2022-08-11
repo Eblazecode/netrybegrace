@@ -42,3 +42,11 @@ def aftersch(request):
 
 def workshop(request):
     return render(request, "netrybe/workshop.html", {})
+def software(request):
+    return render(request, "netrybe/softwaredev.html", {})
+
+def business(request):
+    return render(request, "netrybe/businessint.html", {})
+
+def entreprise(request):
+    return render(request, "netrybe/enterprise.html", {})

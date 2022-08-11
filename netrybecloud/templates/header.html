@@ -72,18 +72,18 @@
                         </li>
                         <li><a href="javascript:;">services<i class="fa fa-chevron-down"></i></a>
                             <ul class="sub-menu">
-                                <li><a href="javascript:;">software development</a>
+                                <li><a href="{% url 'softwaredev' %}">software development</a>
                 
                                 </li>
                                 <li><a href="javascript:;">web design/ Dev</a>
                             
                                 </li>
-                                <li><a href="javascript:;">Talent training</a> </li>
-                                <li><a href="javascript:;">Enterprise solution</a>
+                                <li><a href="{% url 'courses' %}">Talent training</a> </li>
+                                <li><a href="{% url 'entreprise' %}">Enterprise solution</a>
                                 </li>
-                                <li><a href="#">Business intelligence</a></li>
+                                <li><a href="{% url 'business' %}">Business intelligence</a></li>
                                 <li><a href="#"> AI data science research</a></li>
-                                <li><a href="#">Schools program</a></li>
+                                <li><a href="{% url 'nimblyprog' %}">Schools program</a></li>
                               
                             </ul>
                         </li>
@@ -113,8 +113,8 @@
                           <ul class="sub-menu">
                                 <li><a href="{% url 'nimblyprog' %}">Nimbly coding</a></li>
                                 <li><a href="{% url 'aftersch' %}">After school program</a></li>
-                                <li><a href="{% url 'workshop' %}">workshop for school</li></a></li>
-                                <li><a href="#">Holiday coding and tech club</a></li>
+                                <li><a href="{% url 'workshop' %}">Tech teachers</li></a></li>
+                                <li><a href="#">Holiday tech club</a></li>
                                 <li><a href="#">school management system</a></li>
                             </ul>
                         </li>
@@ -124,9 +124,9 @@
                     </ul>
                    
                     <div class="nav-social-link">
-                        <a href="javascript:;"><i class="fa fa-facebook"></i></a>
-                        <a href="javascript:;"><i class="fa fa-twitter"></i></a>
-                        <a href="javascript:;"><i class="fa fa-linkedin"></i></a>
+                        <li><a href="https://www.facebook.com/spackbit" class="btn-link"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="javascript:;" class="btn-link"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/netrybe-technology" class="btn-link"><i class="fa fa-linkedin"></i></a></li>
                     </div>
                 </div>
                 <!-- Navigation Menu END ==== -->
