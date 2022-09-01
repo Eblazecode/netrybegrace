@@ -50,3 +50,6 @@ def business(request):
 
 def entreprise(request):
     return render(request, "netrybe/enterprise.html", {})
+
+def entreprise(request):
+    return render(request, "netrybe/hustlebiz.html", {})
