@@ -16,6 +16,6 @@ urlpatterns = [
     path('nimblyprogram/', views.nimbly, name='nimblyprog'),
     path('softwaredev/', views.software, name='softwaredev'),
     path('BI/', views.business, name='business'),
-    path('enterprise/', views.entreprise, name='entreprise'),
+    path('enterprise/', views.entreprise, name='enterprise'),
     path('hustle-biz/', views.entreprise, name='hustle')
 ]
